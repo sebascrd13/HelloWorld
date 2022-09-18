@@ -10,11 +10,9 @@ public class Tarea01 {
         double deduc = (salMes*9.34)/100;
         double salNeto = salMes-deduc;
         
-        JOptionPane.showMessageDialog(null, "Su nombre es: "+nombre);
-        JOptionPane.showMessageDialog(null, "Su salario semanal es: "+salario);
-        JOptionPane.showMessageDialog(null, "Su salario mensual es: "+salMes);
-        JOptionPane.showMessageDialog(null, "Monto de las deducciones: "+deduc);
-        JOptionPane.showMessageDialog(null, "Salario neto: "+salNeto);
+        JOptionPane.showMessageDialog(null, "Su nombre es: "+nombre+", su salario semanal es: "+salario+
+                                     ", su salario mensual es: "+salMes+", el monto de sus deducciones: "+deduc+
+                                     " y su salario neto: "+salNeto);
 
     }
 }
